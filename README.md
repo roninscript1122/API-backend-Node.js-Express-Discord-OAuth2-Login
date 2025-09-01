@@ -28,10 +28,24 @@
 discord-oauth2-backend/
 │
 ├─ src/
-│  └─ appserver.js        # ไฟล์หลักของเซิร์ฟเวอร์
+│ ├─ config/
+│ │ └─ db.js # ตั้งค่าการเชื่อมฐานข้อมูล
+│ │
+│ ├─ middlewares/
+│ │ └─ require-auth.js # middleware สำหรับตรวจสอบ authentication
+│ │
+│ ├─ modules/
+│ │ └─ auth/
+│ │ ├─ auth.controller.js # จัดการ logic ของ auth
+│ │ ├─ auth.routes.js # route สำหรับ auth
+│ │ ├─ auth.service.js # service สำหรับ auth
+│ │ ├─ discord.auth.js # OAuth2 Discord login logic
+│ │ └─ token.js # จัดการ JWT token
+│ │
+│ └─ appserver.js # ไฟล์หลักของเซิร์ฟเวอร์
 │
-├─ .env                   # Environment variables
-├─ .gitignore             # ป้องกันไฟล์ที่ไม่ต้องการ push
+├─ .env # Environment variables
+├─ .gitignore # ป้องกันไฟล์ที่ไม่ต้องการ push
 ├─ package.json
 └─ README.md
 ```
