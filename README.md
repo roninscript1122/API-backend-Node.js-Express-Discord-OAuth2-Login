@@ -23,6 +23,18 @@
 - cookie-parser
 - jsonwebtoken
 
+## 📂 โครงสร้างโปรเจกต์ (Project Structure)
+discord-oauth2-backend/
+│
+├─ src/
+│  └─ appserver.js        # ไฟล์หลักของเซิร์ฟเวอร์
+│
+├─ .env                   # Environment variables
+├─ .gitignore             # ป้องกันไฟล์ที่ไม่ต้องการ push
+├─ package.json
+└─ README.md
+
+
 ## 📖 ขั้นตอนการสร้างโปรเจกต์ตั้งแต่เริ่มต้น
 
 ### 1. สร้างโฟลเดอร์โปรเจกต์
