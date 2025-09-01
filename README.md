@@ -41,7 +41,7 @@ npm init -y
 npm install express dotenv mysql2 discord-oauth2 cors cookie-parser jsonwebtoken
 ```
 
-### 4. สร้างไฟล์ appserver.js
+### 4. สร้างไฟล์ src/appserver.js
 ใส่โค้ดตัวอย่างนี้ลงไป:
 ```bash
 code example
