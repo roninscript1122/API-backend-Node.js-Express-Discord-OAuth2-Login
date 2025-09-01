@@ -53,12 +53,50 @@ discord-oauth2-backend/
 ```
 
 ---
-
 ## วิธีสร้าง Discord Application (Step by Step)
+
+---
+
 ### 1️⃣ เข้า Discord Developer Portal
-• เปิดเบราว์เซอร์ไปที่: https://discord.com/developers/applications
-• คุณจะเห็นหน้า “Applications” ของคุณ
-แนะนำ: capture รูปภาพหน้าจอทั้งหมดของ Developer Portal
+- เปิดเบราว์เซอร์ไปที่: [Discord Developer Portal](https://discord.com/developers/applications)
+- คุณจะเห็นหน้า **Applications** ของคุณ  
+
+**แนะนำ:** capture รูปภาพหน้าจอทั้งหมดของ Developer Portal  
+![Step 1 - Developer Portal](images/step1-developer-portal.png)
+
+---
+
+### 2️⃣ กด “New Application”
+- ปุ่ม **“New Application”** จะอยู่มุมขวาบน
+- กดเพื่อสร้าง Application ใหม่  
+
+**แนะนำ:** capture รูปภาพปุ่ม **New Application**  
+![Step 2 - New Application](images/step2-new-application.png)
+
+---
+
+### 3️⃣ ตั้งชื่อ Application
+- กรอก **ชื่อโปรเจกต์ของคุณ**  
+- กด **Create**  
+
+**แนะนำ:** capture หน้าต่างตั้งชื่อ application  
+![Step 3 - Name Application](images/step3-name-application.png)
+
+---
+
+### 4️⃣ เข้าเมนู “OAuth2”
+- ในเมนูด้านซ้าย เลือก **OAuth2**  
+- จะเจอ **Client ID**, **Client Secret**, **Redirects**  
+
+**แนะนำ:** capture หน้า OAuth2 tab  
+![Step 4 - OAuth2 Tab](images/step4-oauth2.png)
+
+---
+
+### 5️⃣ ตั้งค่า Redirect URI
+- ใน **OAuth2 > Redirects**, กด **Add Redirect**  
+- ใส่ URL ของคุณ เช่น:  
+
 
 ---
 
