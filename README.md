@@ -24,7 +24,7 @@
 - jsonwebtoken
 
 ## 📂 โครงสร้างโปรเจกต์ (Project Structure)
-```
+```bash
 discord-oauth2-backend/
 │
 ├─ src/
