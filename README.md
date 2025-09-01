@@ -49,7 +49,9 @@ discord-oauth2-backend/
 ├─ package.json
 └─ README.md
 ```
-
+## วิธีสร้าง Discord Application (Step by Step)
+### 1️⃣ เข้า Discord Developer Portal
+เปิดเบราว์เซอร์ไปที่: https://discord.com/developers/applications
 
 ## 📖 ขั้นตอนการสร้างโปรเจกต์ตั้งแต่เริ่มต้น
 
