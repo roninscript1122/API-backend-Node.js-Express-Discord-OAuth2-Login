@@ -34,3 +34,9 @@ cd discord-oauth2-backend
 ### 2. สร้าง Node.js Project
 ```bash
 npm init -y
+```
+
+### 3. ติดตั้ง Dependencies
+```bash
+npm install express dotenv mysql2 discord-oauth2 cors cookie-parser jsonwebtoken
+```
